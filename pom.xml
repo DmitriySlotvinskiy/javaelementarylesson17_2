@@ -15,16 +15,22 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.survivingwithandroid</groupId>
-            <artifactId>weatherlib_okhttpclient</artifactId>
-            <version>1.6.0</version>
-            <type>aar</type>
-        </dependency>
-
-        <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.8.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp-apache</artifactId>
+            <version>3.13.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>parent</artifactId>
+            <version>3.14.7</version>
+            <type>pom</type>
         </dependency>
     </dependencies>
 
